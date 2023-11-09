@@ -12,7 +12,7 @@ user_movies_matrix = pd.read_csv(path)
 #                                  columns='movieId',
 #                                  fill_value=0)
 
-st.write(user_movie_matrix[2])
+st.write(user_movies_matrix[2])
 
 user_movies_matrix = pd.read_csv('umm.csv')
 
