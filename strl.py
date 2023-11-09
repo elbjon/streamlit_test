@@ -4,6 +4,6 @@ st.title('My Work')
 
 st.write('hello streamlit')
 
-color=st.input('whats you fav col?')
+color=st.text_input('whats you fav col?')
 
 st.write(color, 'you like')
