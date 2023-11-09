@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 test = pd.read_csv('umm.csv')
-st.write(test.columns)
+st.write(test.head(3))
 
 st.title('My Work')
 
