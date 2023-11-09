@@ -2,9 +2,15 @@ import streamlit as st
 
 
 
-user_movies_matrix = pd.read_csv('umm.csv')
 
+
+
+url = 'https://drive.google.com/file/d/1hgz5gpLuuZTxSEx9jixkWaTIfjAhkYV8/view?usp=sharing'
+path = 'https://drive.google.com/uc?id='+url.split('/')[-2]
+moviescorrelationsmatrix   = pd.read_csv(path)
+
+usermoviesmatrix = pd.read_csv('umm.csv')
 
 df = pd.read_csv('ratings.csv')
 
-df_movies = pd.read_csv('movies.csv')
+dfmovies = pd.read_csv('movies.csv')
