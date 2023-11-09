@@ -1,1 +1,1 @@
-print('hello streamlit')
+st.print('hello streamlit')
