@@ -11,7 +11,9 @@ user_movies_matrix = pd.read_csv(path)
 #                                  index='userId',
 #                                  columns='movieId',
 #                                  fill_value=0)
-
+st.write(user_movies_matrix.shape)
+st.write(user_movies_matrix.info())
+st.write(user_movies_matrix.describe())
 st.write(user_movies_matrix.head(2))
 
 user_movies_matrix = pd.read_csv('umm.csv')
