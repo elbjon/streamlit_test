@@ -7,10 +7,10 @@ path = 'https://drive.google.com/uc?id='+url.split('/')[-2]
 movies_cosines_matrix = pd.read_csv(path)
 
 
-st.write(user_movies_matrix.shape)
-st.write(user_movies_matrix.info())
-st.write(user_movies_matrix.describe())
-st.write(user_movies_matrix.head(2))
+st.write(movies_cosines_matrix.shape)
+st.write(movies_cosines_matrix.info())
+st.write(movies_cosines_matrix.describe())
+st.write(movies_cosines_matrix.head(2))
 
 user_movies_matrix = pd.read_csv('umm.csv')
 
